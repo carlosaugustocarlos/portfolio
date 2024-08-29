@@ -1,0 +1,14 @@
+.btn-click {
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-click:hover {
+    transform: scale(1.02);
+}
+.btn-click:active {
+    transform: scale(0.98);
+}
+.btn-without {
+    border: 0;
+    background: transparent;
+}
